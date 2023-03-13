@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secuencia Fibonacci</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/img/Fibonacci2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-gradient bg-body-light shadow-sm  rounded" id="home">
+        <div class="container-fluid">
+        
+
+            <img src="/img/Fibonacci2.jpg" class="img-fluid d-inline-block rounded-circle" width="100">
+       
+          
+    
+          
+          
+    
+    
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse justify-content-start" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <!-- <a class="nav-link fw-semibold" href="#home">Home</a> -->
+              </li>
+           
+              
+         
+          
+          
+               </ul>
+      
+          </div>
+          <!-- iconos -->
+          <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#about" target="_blank">
+                   ¿Qué es la Secuencia Fibonacci?
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  ¿Quién fue Fibonacci?
+                </a>
+              </li>  
+           
+              
+
+
+         
+          
+          
+               </ul>
+      
+          </div>
+        </div>
+      </nav>
+
+
+<div class="container d-flex justify-content-center mb-5">
+    <div class="row">
+        <div class="col-sm-6 text-center">
+
+
+            <h1 class="mt-4 ">Calcular Secuencia Fobonacci</h1>
+
+            <label for="n" class="col-form-label d-block mx-auto ">
+             Ingresar un numero entero para recurrir la Secuencia Fibonacci <input type="number" id="n" class=" d-block mx-auto form-control w-50" >
+                </label>
+            <br>
+               <button type="button" class="btn btn-outline-success d-block mx-auto mb-4 w-50" onclick="secuenciaFibonacci()">Enviar</button>
+                
+                <button type="button" class="btn btn-outline-danger d-block mx-auto mb-4  w-50" onclick="reiniciar()">Reinicar</button>
+            
+                <p class=" fw-bolder text-dark"  id="respuesta"></p>
+        </div>
+
+        <div class="col-sm-6">
+            <a href="https://storyset.com/design">
+                <img src="/img/Circles-bro.png" class="img-fluid w-100 img-2" alt="">
+            </a>
+            <!-- <img src="https://source.unsplash.com/250x250/?math" class="rounded-circle d-block mx-auto" alt="Portrait"> -->
+        </div>
+    </div>
+</div>
+
+<div class="container d-flex justify-content-center mt-5">
+    <div class="row">
+        <div class="col-sm-6 text-center">
+
+
+            <h1 class="mt-4 " id="about">¿Quién fue Leonardo?</h1>
+            
+          <p>
+             Leonardo de Pisa fue matemático, más conocido como Fibonacci, y en su "Libro de cálculo", Fibonacci promovió el nuevo sistema de números, demostrando lo sencillo que era en comparación con los números romanos que se utilizaban en toda Europa
+          </p>
+
+          <p>
+            Tiene numerosas aplicaciones en ciencias de la computación, matemática y teoría de juegos.
+          </p>
+        </div>
+
+        <div class="col-sm-6">
+            <h1  class="fw-bold">¿Qué es la Secuencia Fibonacci?</h1>
+
+            <p>
+                En matemáticas, la sucesión de Fibonacci es una sucesión infinita de números naturales
+            </p>
+            <p class="fw-semibold">
+                La sucesión comienza con los números 0 y 1;2​ a partir de estos, «cada término es la suma de los dos anteriores», es la relación de recurrencia que la define.
+            </p>
+
+            <p>
+                La sucesión fue descrita y dada a conocer en occidente por Fibonacci como la solución a un problema de la cría de conejos
+            </p>
+
+        </div>
+    </div>
+    <a href="#home" class="text-decoration-none text-dark">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+          </svg>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
